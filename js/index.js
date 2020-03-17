@@ -46,6 +46,27 @@
  $( ".but2" ).click(function() {
     $( "#toggle2" ).toggle( "blind" );
   });
+ $('.carousel').carousel()
+
+// const carouselSlide=document.querySelector(".carousel-slide");
+// const carouselImages=document.querySelector(".carousel-slide img");
+// const prevBtn=document.querySelector("#prevbtn");
+// const nextBtn=document.querySelector("#nextbtn");
+// let counter =1;
+// // const size = carouselImages[0].clientWidth;
+
+// // carouselSlide.style.transform= "translateX(" + (-size *counter) + "px)";
+// nextBtn.addEventListener('click',()=>{
+//   carouselSlide.style.transition="transform 0.4s ease-in-out";
+//   counter++;
+//   console.log(counter);
+  // carouselSlide.style.transform= 'translateX('+ (-size *counter)+ 'px)';
+
+// });
+
+
+
+
   // var typed = $(".typed");
 
   // $(function() {
